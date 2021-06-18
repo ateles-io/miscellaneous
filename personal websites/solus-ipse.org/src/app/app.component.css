@@ -1,0 +1,91 @@
+.header_toggle {
+	cursor:pointer;
+	text-align:center;
+	width:20px;
+	border: 0.5px solid white;
+	border-top: none;
+	position: fixed;
+	top:0;
+	right:10%;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.header {
+  text-align:center;
+	white-space: nowrap;
+}
+
+#page_title {
+	font-size:24px;
+}
+.header > div > a {
+	display:inline-block;
+	vertical-align: middle;
+}
+
+#breadcrumb_programming {
+  width:124.37px;
+}
+#breadcrumb_photography {
+  width:118.25px;
+}
+#breadcrumb_photography_album {
+  width:177.29px;
+}
+
+#breadcrumb_apps {
+  width:57.91px;
+}
+
+#breadcrumb_apax {
+  width:57.75px;
+}
+
+#breadcrumb_kybos {
+  width:65.34px;
+}
+
+
+
+
+/*
+#page_title {
+	font-size:24px;
+}
+.header {
+  display:flex;
+  flex-direction:row;
+  background-color:blue;
+}
+.header > div {
+  display:flex;
+  margin: 0 auto;
+  background-color:red;
+}
+*/
+
+
+/*
+.header {
+  display: table;
+  width:100%;
+	white-space: nowrap;
+}
+
+.header > div {
+  display: table-cell;
+  text-align:center;
+}
+
+.header > div > a {
+  display:inline-block;
+	vertical-align: middle;
+  width:100px;
+}
+*/

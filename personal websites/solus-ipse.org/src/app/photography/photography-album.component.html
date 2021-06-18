@@ -1,0 +1,4 @@
+<div [hidden]="photos != null" style="text-align:center;">{{ error_message }}</div>
+<div id="album_container">
+  <img id="album_img" src="{{photos[current_photo].url}}" [style.width]="img_width+'px'" [style.height]="img_height+'px'">
+</div>

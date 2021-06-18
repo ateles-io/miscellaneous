@@ -1,0 +1,23 @@
+
+
+.album_list
+{
+    position: relative;
+    text-align: center;
+}
+
+.album_list ul
+{
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:0px;
+    padding-bottom:0px;
+    display:inline-block;
+    text-align: left;
+}
+.album_list ul li
+{
+	list-style-type: none;
+	font-size:18px;
+}
